@@ -1,0 +1,42 @@
+﻿  car.cpp
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(68,34): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(68,26): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(68,18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(68,10): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(70,34): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(70,26): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(70,18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(70,10): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(72,34): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(72,26): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(72,18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(72,10): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(74,34): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(74,26): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(74,18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(74,10): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(82,35): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(82,30): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(82,17): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(83,35): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(83,30): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(83,17): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(84,35): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(84,30): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(84,17): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(85,35): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(85,30): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\car.cpp(85,17): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  planning_base.cpp
+C:\Users\EthanYU\source\repos\car_project\Src\planning_base.cpp(15,17): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\planning_base.cpp(15,14): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  scene_base.cpp
+  traffic.cpp
+C:\Users\EthanYU\source\repos\car_project\Src\traffic.cpp(11,40): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\traffic.cpp(11,35): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\traffic.cpp(11,22): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\traffic.cpp(27,39): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\traffic.cpp(27,34): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\traffic.cpp(27,21): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  正在生成代码...
+  car_project.vcxproj -> C:\Users\EthanYU\source\repos\car_project\x64\Debug\car_project.exe
