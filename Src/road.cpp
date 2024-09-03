@@ -4,7 +4,7 @@ RoadNormal::RoadNormal(const double& r_width)
 {
 	Rwidth = r_width;
 	left_boundary = Swidth / 2.0 - Rwidth;
-	right_boundary = Swidth / 2.0 + Rwidth;   //屏幕宽度/2+道路宽度
+	right_boundary = Swidth / 2.0 + Rwidth;   //road boundaries
 
 }
 void RoadNormal::showRoad()
@@ -66,5 +66,5 @@ void RoadDoubleLine::showRoad()
 	line(right_boundary, 0.0, right_boundary, Sheight);
 
 	setlinestyle(PS_DASH, 4);
-	line(Swidth / 2.0, 0.0, Swidth / 2.0, Sheight);    //车道线
+	line(Swidth / 2.0, 0.0, Swidth / 2.0, Sheight);    //lane
 }

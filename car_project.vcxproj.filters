@@ -68,9 +68,6 @@
     <ClCompile Include="Src\scene_obs.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Src\pointer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Src\polynomial.cpp">
       <Filter>源文件</Filter>
     </ClCompile>

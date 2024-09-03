@@ -2,13 +2,13 @@
 #include "main.h"
 
 
-bool process(const int& type)   //根据类型选择入口函数
+bool process(const int& type)   //select enter function by type
 {
 	switch (type)
 	{
 	case PlanType::StraightStopObsT:
 	{
-		unique_ptr<sceneBase> job = make_unique<StraightStopObs>();  //父类-->子类对象
+		unique_ptr<sceneBase> job = make_unique<StraightStopObs>();  //using father unique pointer to create children object
 		return job->planning_process();
 	}
 	case PlanType::StraightStationT:
@@ -40,11 +40,11 @@ bool process(const int& type)   //根据类型选择入口函数
 
 int main()
 {
-	initgraph(Swidth, Sheight, EW_SHOWCONSOLE);    //创建图形窗口
+	initgraph(Swidth, Sheight, EW_SHOWCONSOLE);    //create a window
 	setbkcolor(WHITE);
 	cleardevice();
-	if (process(PlanType::ObsPoly))
-		cout << "场景完成! " << endl;
+	if (process(PlanType::StraightCrossWalkT))
+		cout << "Scene Finish! " << endl;
 	system("pause");
 	closegraph();
 	return 0;

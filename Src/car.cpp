@@ -6,15 +6,15 @@ void carBase::initCar(const double& pos_x, const double& pos_y, const double& he
 	car_length = length;
 	car_width = width;
 	heading_theta = heading;
-	R0 = hypot(car_width / 2, car_length / 2);    //转向半径(算直角三角形斜边长度)
+	R0 = hypot(car_width / 2, car_length / 2);    //turning radius
 	theta0 = atan(car_length / car_width);
 	theta1 = atan(car_width / car_length);
-	pmid = make_unique<Point>(pos_x, pos_y);    //声明中心点
-	Rin = sqrt(pow(car_length, 2) + pow(car_width, 2));    //计算中心半径
-	plf = make_unique<Point>(pmid->x - car_width / 2, pmid->y - car_length / 2, PI - theta0, R0);   //前左
-	prf = make_unique<Point>(pmid->x + car_width / 2, pmid->y - car_length / 2, theta0, R0);   //前右
-	plr = make_unique<Point>(pmid->x - car_width / 2, pmid->y + car_length / 2, PI + theta0, R0);  //左后
-	prr = make_unique<Point>(pmid->x + car_width / 2, pmid->y + car_length / 2, -theta0, R0);   //右后
+	pmid = make_unique<Point>(pos_x, pos_y);    //declear middle point
+	Rin = sqrt(pow(car_length, 2) + pow(car_width, 2));    //length of diagonal
+	plf = make_unique<Point>(pmid->x - car_width / 2, pmid->y - car_length / 2, PI - theta0, R0);   
+	prf = make_unique<Point>(pmid->x + car_width / 2, pmid->y - car_length / 2, theta0, R0);   
+	plr = make_unique<Point>(pmid->x - car_width / 2, pmid->y + car_length / 2, PI + theta0, R0);  
+	prr = make_unique<Point>(pmid->x + car_width / 2, pmid->y + car_length / 2, -theta0, R0);   
 
 	plf->PointTurn(*pmid, heading_theta);
 	prf->PointTurn(*pmid, heading_theta);
@@ -22,29 +22,29 @@ void carBase::initCar(const double& pos_x, const double& pos_y, const double& he
 	prr->PointTurn(*pmid, heading_theta);
 
 	updatepmidf();
-	updatepmidr();   //更新前后轴中点
+	updatepmidr();   //update front and rear middle point location
 }
 
-void carBase::updatepmidf()   //更新前轴中点xy值
+void carBase::updatepmidf()  
 {	
-	if (pmidf)    //如果已经存在pmidf这个对象
+	if (pmidf)    //if pmidf exists
 	{
 		pmidf->x = plf->x / 2 + prf->x / 2;
 		pmidf->y = plf->y / 2 + prf->y / 2;
 	}
 	else
-		pmidf = make_unique<Point>(plf->x / 2 + prf->x / 2, plf->y / 2 + prf->y / 2);    //没有就创建
+		pmidf = make_unique<Point>(plf->x / 2 + prf->x / 2, plf->y / 2 + prf->y / 2);    //or create
 }
 
 void carBase::updatepmidr()
 {
-	if (pmidr)    //如果已经存在pmidf这个对象
+	if (pmidr)    
 	{
 		pmidr->x = plr->x / 2 + prr->x / 2;
 		pmidr->y = plr->y / 2 + prr->y / 2;
 	}
 	else
-		pmidr = make_unique<Point>(plr->x / 2 + prr->x / 2, plr->y / 2 + prr->y / 2);    //没有就创建
+		pmidr = make_unique<Point>(plr->x / 2 + prr->x / 2, plr->y / 2 + prr->y / 2);    
 }
 
 void carBase::updatepmid()
@@ -63,19 +63,16 @@ void carBase::updatepmid()
 
 void carBase::showCar(const COLORREF &color)
 {
-	setlinestyle(PS_SOLID, 4);    //设置线宽
+	setlinestyle(PS_SOLID, 4);    //set line width
 	setlinecolor(color);
 	line(plf->x, plf->y, prf->x, prf->y);
-	setlinecolor(BLUE);
 	line(prf->x, prf->y, prr->x, prr->y);
-	setlinecolor(GREEN);
 	line(prr->x, prr->y, plr->x, plr->y);
-	setlinecolor(YELLOW);
-	line(plr->x, plr->y, plf->x, plf->y);   //四点连线
+	line(plr->x, plr->y, plf->x, plf->y);   //connect 4 points
 
 }
 
-void carBase::showCurve()    //绘制轨迹线
+void carBase::showCurve()    
 {
 	setlinestyle(PS_DOT, 2);
 	setlinecolor(MAGENTA);
@@ -87,12 +84,12 @@ void carBase::showCurve()    //绘制轨迹线
 
 void carBase::coutInfo()
 {
-	cout << "车辆x坐标： " << pmid->x << "车辆y坐标: " << pmid->y << "旋转半径: " << pmid->R << "旋转角度: " << pmid->theta << endl;
-	cout << "speed: " << speed_y << "加速度: " << a_y << "角速度: " << delta_theta << "自转角速度: " << delta_theta_rot << "航向角： " << heading_theta << endl;
+	cout << "Car Position X： " << pmid->x << ", Y: " << pmid->y << ", Turning Radius: " << pmid->R << endl;
+	cout << "Car Speed: " << speed_y << ", Acc: " << a_y << ", Angular Velocity: " << delta_theta << ", Rotation Theta : " << delta_theta_rot << ", Heading Theta： " << heading_theta << endl;
 
 }
 
-void carBase::moveStraightStep()   //单帧直行
+void carBase::moveStraightStep()   //move by step
 {
 	plf->PointMove(speed_x, speed_y);
 	prf->PointMove(speed_x, speed_y);
@@ -103,7 +100,7 @@ void carBase::moveStraightStep()   //单帧直行
 	pmid->PointMove(speed_x, speed_y);
 }
 
-void carBase::TurnStep()   //单帧转向
+void carBase::TurnStep()   //turn by step
 {
 	pmidr->PointTurn(*p_center, delta_theta);
 	plf->PointTurn(*p_center, delta_theta);
@@ -112,7 +109,7 @@ void carBase::TurnStep()   //单帧转向
 	prr->PointTurn(*p_center, delta_theta);
 }
 
-void carBase::TurnByAngle(Point first, Point Second)    //按照角度更新四点位置
+void carBase::TurnByAngle(Point first, Point Second)    //update car position by 2 points on the given track 
 {
 	double dis = first.DistanceTo(Second);
 	heading_theta = asin((Second.x - first.x) / dis);
@@ -130,7 +127,7 @@ void carBase::TurnByAngle(Point first, Point Second)    //按照角度更新四点位置
 	prr->y = prf->y + car_length * cos(heading_theta);
 }
 
-void carBase::updateRinRout(const double& R)   //根据转向半径更新四点半径
+void carBase::updateRinRout(const double& R)   //update each point's turning radius through R
 {
 	Ror = R + car_width / 2.0;
 	Rir = R - car_width / 2.0;
@@ -138,14 +135,14 @@ void carBase::updateRinRout(const double& R)   //根据转向半径更新四点半径
 	Rif = hypot(Rir, car_length);
 }
 
-void carBase::updateTurnInfo(const int& turn_state, const double& R)  //已知转向方向及半径求相关参数
+void carBase::updateTurnInfo(const int& turn_state, const double& R)  //calculate parameters according to direction and turning radius
 {
 	double x = 0.0;
 	double y = 0.0;
-	updateRinRout(R);  //更新四点半径
-	if (turn_state == TurnDirection::TurnRight)  //右转
+	updateRinRout(R);  
+	if (turn_state == TurnDirection::TurnRight)  //turn right
 	{ 
-		x = pmidr->x + R * cos(heading_theta);   //计算转向中心点坐标
+		x = pmidr->x + R * cos(heading_theta);   //calculate turning center's coordinates
 		y = pmidr->y - R * sin(heading_theta);
 
 		pmidr->theta = heading_theta + PI;
@@ -165,7 +162,7 @@ void carBase::updateTurnInfo(const int& turn_state, const double& R)  //已知转向
 		x = pmidr->x - R * cos(heading_theta);
 		y = pmidr->y + R * sin(heading_theta);
 
-		//更新5个点角度和半径
+		//update 5 car points' radius and theta
 		pmidr->theta = heading_theta;
 		pmidr->R = R;
 
@@ -206,7 +203,7 @@ void carBase::updateStraightInfo()
 	updatepmidf();
 	updatepmid();
 	updateXYva();
-	p_center.reset();   //释放指向的内存
+	p_center.reset();   //release memory
 
 	Ror = 0.0;
 	Rir = 0.0;
@@ -214,7 +211,7 @@ void carBase::updateStraightInfo()
 	Rif = 0.0;
 
 	pmidr->theta = 0.0;
-	pmidr->R = 0.0;   //设置转向相关参数都为0
+	pmidr->R = 0.0;   //set all parameters about turning to 0
 	pmidf->theta = 0.0;
 	pmidf->R = 0.0;
 	pmid->theta = 0.0;

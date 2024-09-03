@@ -1,18 +1,18 @@
 #pragma once
 #include "scene_base.h"
 
-class StraightStopObs :public sceneBase  //停障
+class StraightStopObs :public sceneBase  
 {
 public:
 	StraightStopObs();
 	void showScene();
-	bool planning_process() override;   //纯虚函数重写
+	bool planning_process() override;   //rewrite
 public:
-	unique_ptr<Cone> cone;    //放置一个锥桶
+	unique_ptr<Cone> cone;    
 	double safedis = 50.0;
 };
 
-class StraightStation :public sceneBase   //停站
+class StraightStation :public sceneBase   
 {
 public:
 	StraightStation();
@@ -20,7 +20,7 @@ public:
 	bool planning_process() override;
 public:
 	unique_ptr<Point> station;
-	int stop_time = 3;   //停靠时间
+	int stop_time = 3;   
 };
 
 class StraightFollow :public sceneBase
@@ -30,19 +30,19 @@ public:
 	void showScene();
 	bool planning_process() override;
 public:
-	unique_ptr<carNormal> carObs;   //障碍车
-	double safedis = 120.0;   //安全距离
+	unique_ptr<carNormal> carObs;   // obstacle car
+	double safedis = 120.0;   //safe distance
 };
 
 class StraightCrossWalk :public sceneBase
 {
 public:
 	StraightCrossWalk();
-	bool peopleInCross();   //判断是否有人
+	bool peopleInCross();   //if there is someone on the crosswalk
 	void showScene();
 	bool planning_process() override;
 public:
 	int people_n = 5;
 	vector<unique_ptr<Person>> people;
-	double cross_limit = -2.5;   //限速
+	double cross_limit = -2.5;   //speed limit when driving accorss the crossing
 };

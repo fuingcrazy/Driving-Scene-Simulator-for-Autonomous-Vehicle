@@ -5,12 +5,12 @@
 class Cone
 {
 public:
-	unique_ptr<Point> p_center;   //中心点
-	double r = 20.0;   //半径
+	unique_ptr<Point> p_center;   //center point of cone
+	double r = 20.0;   //radius
 public:
 	~Cone() = default;
 	Cone(const double& pos_x, const double& pos_y, const double& R = 20.00);
-	void showCone();   //绘制锥桶
+	void showCone();   //draw
 };
 
 class Person

@@ -145,7 +145,6 @@
     <ClCompile Include="Src\main.cpp" />
     <ClCompile Include="Src\polynomial.cpp" />
     <ClCompile Include="Src\planning_base.cpp" />
-    <ClCompile Include="Src\pointer.cpp" />
     <ClCompile Include="Src\road.cpp" />
     <ClCompile Include="Src\scene_base.cpp" />
     <ClCompile Include="Src\scene_obs.cpp" />

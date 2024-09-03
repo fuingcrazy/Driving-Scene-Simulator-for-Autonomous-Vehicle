@@ -2,14 +2,14 @@
 
 StraightStopObs::StraightStopObs()
 {
-	road0 = make_unique<RoadNormal>();   //父类指针创建子类对象
+	road0 = make_unique<RoadNormal>();   
 	cone = make_unique<Cone>(Swidth / 2.0, Swidth / 4.0, 50);
-	car0 = make_unique<carNormal>(Swidth/2.0,Sheight-70.0);    //创建子类对象
-	car0->speed_y = -6.0;   //指定初始速度
+	car0 = make_unique<carNormal>(Swidth/2.0,Sheight-70.0);    
+	car0->speed_y = -6.0;   //initial speed
 
 	car0->coutInfo();
-	showScene();    //需要重写的虚函数
-	system("pause");   //手动启动
+	showScene();    
+	system("pause");   //restart 
 }
 
 void StraightStopObs::showScene()
@@ -28,7 +28,7 @@ void StraightStopObs::showScene()
 bool StraightStopObs::planning_process()
 {
 	double stopline = cone->p_center->y + cone->r + safedis;
-	uniformAccByDis(car0->pmidf->y - stopline, 0.0);   //按照距离减速到0
+	uniformAccByDis(car0->pmidf->y - stopline, 0.0);   //stop at the stopline
 	return true;
 
 }
@@ -37,12 +37,12 @@ StraightStation::StraightStation()
 {
 	road0 = make_unique<RoadNormal>();
 	car0 = make_unique<carNormal>(Swidth / 2.0, Sheight - 70.0);
-	station = make_unique<Point>(Swidth / 2.0, Sheight / 2.0);    //设置站点
+	station = make_unique<Point>(Swidth / 2.0, Sheight / 2.0);    //set station
 
 	car0->speed_y = -6.0;
 	car0->coutInfo();
-	showScene();    //需要重写的虚函数
-	system("pause");   //手动启动
+	showScene();    
+	system("pause");   
 }
 
 void StraightStation::showScene()
@@ -60,9 +60,9 @@ void StraightStation::showScene()
 
 bool StraightStation::planning_process()
 {
-	uniformAccByDis(car0->pmid->y - station->y, 0.0);   //减速进站
-	Delay(stop_time * 1000);   //停3秒
-	uniformAccByTime(speedlimit, 2.0);  //2s内加速到限速
+	uniformAccByDis(car0->pmid->y - station->y, 0.0);   //slow down
+	Delay(stop_time * 1000);   //stop for 3 seconds
+	uniformAccByTime(speedlimit, 2.0);  //accelerate to speed limit within 3 seconds
 	return true;
 
 }
@@ -70,7 +70,7 @@ bool StraightStation::planning_process()
 StraightFollow::StraightFollow()
 {
 	road0 = make_unique<RoadNormal>();
-	carObs = make_unique<carNormal>(Swidth / 2.0, Sheight / 2.0, 0.0, 50.0, 100.0);   //障碍车
+	carObs = make_unique<carNormal>(Swidth / 2.0, Sheight / 2.0, 0.0, 50.0, 100.0);   
 	carObs->speed_y = -2.0;
 	car0 = make_unique<carNormal>(Swidth / 2.0, Sheight - 70.0);
 	car0->speed_y = -6.0;
@@ -99,7 +99,6 @@ bool StraightFollow::planning_process()
 {
 	double dis = car0->pmid->y - carObs->pmid->y-safedis;
 	double d_speed = car0->speed_y - carObs->speed_y;
-	//cout << " 这里不对!,d_speed: "<<d_speed<<" 距离差:  "<<dis << endl;
 	if (d_speed > 0 || dis <= 0) return false;
 	car0->a_y = pow(d_speed, 2) / dis / 2.0;
 
@@ -124,13 +123,13 @@ StraightCrossWalk::StraightCrossWalk()
 {
 	road0 = make_unique<RoadCross>();
 	car0 = make_unique<carNormal>(Swidth / 2.0, Sheight - 70.0);
-	car0->speed_y = -3.0;
+	car0->speed_y = -5.0;
 
 	for (int i = 0; i < people_n; i++)
 	{
 		unique_ptr<Person> ps = make_unique<Person>(road0->right_boundary + 20 * (i * 3 + 1), road0->getMidLine());  //指向新生成人
 		ps->speed = -2.5;
-		people.emplace_back(move(ps));   //不加move相当于复制地址，不允许
+		people.emplace_back(move(ps));   //use move because ps is a unique pointer to person, not allowed to be copied
 	}
 	car0->coutInfo();
 	showScene();
@@ -157,7 +156,7 @@ void StraightCrossWalk::showScene()
 	Delay(DELAYTIME);
 }
 
-bool StraightCrossWalk::peopleInCross()  //判断是否有人
+bool StraightCrossWalk::peopleInCross()  //if there is someone on the crossing
 {
 	for (auto& i : people)
 	{
@@ -180,25 +179,25 @@ bool StraightCrossWalk::planning_process()
 		}
 		else
 		{
-			if (dis <= 7.0) {    //停止线前完全停车防止倒车
+			if (dis <= 7.0) {    //stop 
 				car0->speed_y = 0.0;
 				car0->a_y = 0.0;
 				break;
 			}
 		}
-		cout << "1距离:  " << dis << " ,汽车速度: " << car0->speed_y << ", 加速度: " << car0->a_y << endl;
+		cout << "(State 1)Distance to cross:  " << dis << " ,Speed: " << car0->speed_y << ", Accelerate: " << car0->a_y << endl;
 		showScene();
 	}
 	while (car0->pmidr->y > road0->getUpLine())
 	{
 		if (!peopleInCross())
 		{
-			if (car0->speed_y > cross_limit)   //没到限速就加速？
+			if (car0->speed_y > cross_limit)   //acc if slower than speed limit
 				car0->a_y = -0.1;
 			else
 				car0->a_y = 0;
 		}
-		cout << "2距离:  " << dis << " ,汽车速度: " << car0->speed_y << ", 加速度: " << car0->a_y << endl;
+		cout << "(State 2)Distance to cross:  " << dis << " ,Speed: " << car0->speed_y << ", Accelerate: " << car0->a_y << endl;
 		showScene();
 	}
 	while (car0->pmidr->y > 0.0)
@@ -207,7 +206,7 @@ bool StraightCrossWalk::planning_process()
 			car0->a_y = -0.05;
 		else
 			car0->a_y = 0.0;
-		cout << "3车速: " << car0->speed_y << " 加速度: " << car0->a_y << endl;
+		cout << "(State 3)Distance to cross: " << car0->speed_y << "  Accelerate: " << car0->a_y << endl;
 		showScene();
 	}
 	return true;

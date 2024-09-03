@@ -8,7 +8,7 @@ Cone::Cone(const double& pos_x, const double& pos_y, const double& R) :r(R)
 void Cone::showCone()
 {
 	setfillcolor(RGB(255, 127, 0));
-	solidcircle(p_center->x, p_center->y, r);   //»æÖÆÊµÐÄÔ²
+	solidcircle(p_center->x, p_center->y, r);   //draw a circle
 }
 
 Person::Person(const double& pos_x, const double& pos_y)
