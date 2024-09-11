@@ -86,17 +86,18 @@ void sceneBase::laneChange(const Point& target_point, const int& type, const dou
 	double L = vec0.crossProd(vec) / dis / 2.0;
 	double H = vec0.innerProd(vec) / dis / 2.0;
 
-	if (fabs(L) < 1e-10)//target point lies on the track of vehicle
+	if (fabs(L) < 1e-10)//target point on the lane, no need to bypass
 	{
 		uniformStraight(car0->pmidr->DistanceTo(target_point));
 		return;
 	}
 
-	double R = (pow(L, 2) + pow(H, 2)) / fabs(L) / 2.0;//turning radius
-	double target_theta = asin(H / R);
-	double target_delta_theta = fabs(car0->speed / R);//absolute value of angular velocity
+	double R = (pow(L, 2) + pow(H, 2)) / fabs(L) / 2.0;//Turning radius
+	double target_theta = asin(H / R);//target delta
+	double target_delta_theta = fabs(car0->speed / R);
+	//cout << "dis = " << dis << ", L = " << L << ", H = " << H << ", R = " << R << ", target_theta = " << target_theta / PI << ", target_delta_theta = " << target_delta_theta / PI << endl;
 
-	if (L > 0.0)//turning left
+	if (L > 0.0)//left
 	{
 		car0->delta_theta = target_delta_theta;
 		carTurn(TurnDirection::TurnLeft, R, target_theta);
@@ -120,7 +121,7 @@ void sceneBase::laneChange(const Point& target_point, const int& type, const dou
 			carTurn(TurnDirection::TurnLeft, R, target_theta);
 		}
 	}
-	else if (L < 0.0)//turning right
+	else if (L < 0.0)//tight
 	{
 		car0->delta_theta = -target_delta_theta;
 		carTurn(TurnDirection::TurnRight, R, target_theta);
@@ -135,7 +136,7 @@ void sceneBase::laneChange(const Point& target_point, const int& type, const dou
 			car0->delta_theta = target_delta_theta;
 			carTurn(TurnDirection::TurnLeft, R, target_theta);
 
-			uniformStraight(s);//if overtake, keep going straight for a distance
+			uniformStraight(s);//distance to go straight if it's an overtake
 
 			car0->delta_theta = target_delta_theta;
 			carTurn(TurnDirection::TurnLeft, R, target_theta);
@@ -144,6 +145,7 @@ void sceneBase::laneChange(const Point& target_point, const int& type, const dou
 			carTurn(TurnDirection::TurnRight, R, target_theta);
 		}
 	}
+
 
 
 }

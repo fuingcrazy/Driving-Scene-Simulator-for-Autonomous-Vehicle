@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\EthanYU\\source\\repos\\car_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\scene_base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Library\\scene_base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\scene_straight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Library\\scene_straight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\scene_straight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Src\\scene_straight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Library\\main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\scene_obs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Src\\scene_obs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\car.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Src\\car.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\planning_base.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Src\\planning_base.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\polynomial.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Src\\polynomial.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\scene_base.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -35,72 +35,12 @@
       "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Src\\road.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\traffic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Src\\traffic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\traffic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Library\\traffic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\scene_straight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Library\\scene_straight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\scene_obs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Library\\scene_obs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\scene_base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Library\\scene_base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\road.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Library\\road.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\polynomial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Library\\polynomial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\planning_base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Library\\planning_base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EthanYU\\source\\repos\\car_project\\planning_base.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:planning_base.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Library\\main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\car.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Library\\car.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EthanYU\\source\\repos\\car_project\\car.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:car.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EthanYU\\source\\repos\\car_project\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EthanYU\\source\\repos\\car_project\\road.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:road.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EthanYU\\source\\repos\\car_project\\car.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:car.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EthanYU\\source\\repos\\car_project\\scene_straight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scene_straight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EthanYU\\source\\repos\\car_project\\scene_straight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scene_straight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\car.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C56E04D2-9DAF-42E1-9C4C-61D05E92ED3C}|car_project.vcxproj|solutionrelative:Src\\car.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,24 +50,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC0AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-02T02:40:18.874Z",
-              "IsPinned": true
+              "DocumentIndex": 3,
+              "Title": "main.h",
+              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\main.h",
+              "RelativeDocumentMoniker": "Library\\main.h",
+              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\main.h",
+              "RelativeToolTip": "Library\\main.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-01T15:15:00.097Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "scene_straight.h",
+              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\scene_straight.h",
+              "RelativeDocumentMoniker": "Library\\scene_straight.h",
+              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\scene_straight.h",
+              "RelativeToolTip": "Library\\scene_straight.h",
+              "ViewState": "AQIAAAEAAAAAAAAAAIAzwCEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-11T03:59:24.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "scene_straight.cpp",
               "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\scene_straight.cpp",
               "RelativeDocumentMoniker": "Src\\scene_straight.cpp",
@@ -135,20 +89,7 @@
               "RelativeToolTip": "Src\\scene_straight.cpp",
               "ViewState": "AQIAAHgAAAAAAAAAAAAAAH0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-02T23:11:50.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "scene_obs.cpp",
-              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\scene_obs.cpp",
-              "RelativeDocumentMoniker": "Src\\scene_obs.cpp",
-              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\scene_obs.cpp",
-              "RelativeToolTip": "Src\\scene_obs.cpp",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAgAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-02T23:08:46.076Z",
+              "WhenOpened": "2024-09-11T03:58:18.832Z",
               "EditorCaption": ""
             },
             {
@@ -159,9 +100,46 @@
               "RelativeDocumentMoniker": "Src\\scene_base.cpp",
               "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\scene_base.cpp",
               "RelativeToolTip": "Src\\scene_base.cpp",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAIkAAABHAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAD4v3IAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-02T23:00:06.55Z",
+              "WhenOpened": "2024-09-04T20:52:01.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\main.cpp",
+              "RelativeDocumentMoniker": "Src\\main.cpp",
+              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\main.cpp",
+              "RelativeToolTip": "Src\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-04T03:46:40.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "scene_obs.cpp",
+              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\scene_obs.cpp",
+              "RelativeDocumentMoniker": "Src\\scene_obs.cpp",
+              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\scene_obs.cpp",
+              "RelativeToolTip": "Src\\scene_obs.cpp",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAJUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-02T23:08:46.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "scene_base.h",
+              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\scene_base.h",
+              "RelativeDocumentMoniker": "Library\\scene_base.h",
+              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\scene_base.h",
+              "RelativeToolTip": "Library\\scene_base.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-04T20:59:00.102Z",
               "EditorCaption": ""
             },
             {
@@ -172,257 +150,33 @@
               "RelativeDocumentMoniker": "Src\\road.cpp",
               "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\road.cpp",
               "RelativeToolTip": "Src\\road.cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAEQAAAA6AAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAD8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-02T21:15:51.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\main.cpp",
-              "RelativeDocumentMoniker": "Src\\main.cpp",
-              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\main.cpp",
-              "RelativeToolTip": "Src\\main.cpp",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAABoAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-02T20:58:19.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "polynomial.cpp",
-              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\polynomial.cpp",
-              "RelativeDocumentMoniker": "Src\\polynomial.cpp",
-              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\polynomial.cpp",
-              "RelativeToolTip": "Src\\polynomial.cpp",
-              "ViewState": "AQIAAOEAAAAAAAAAAAAvwO0AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-31T21:16:28.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "car.cpp",
-              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\car.cpp",
-              "RelativeDocumentMoniker": "Src\\car.cpp",
-              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\car.cpp",
-              "RelativeToolTip": "Src\\car.cpp",
-              "ViewState": "AQIAADsAAAAAAAAAAAAvwEUAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-02T20:46:26.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "planning_base.cpp",
-              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\planning_base.cpp",
-              "RelativeDocumentMoniker": "Src\\planning_base.cpp",
-              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\planning_base.cpp",
-              "RelativeToolTip": "Src\\planning_base.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAD8AAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-02T21:10:55.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T04:38:17.144Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "traffic.cpp",
-              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\traffic.cpp",
-              "RelativeDocumentMoniker": "Src\\traffic.cpp",
-              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\traffic.cpp",
-              "RelativeToolTip": "Src\\traffic.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-03T04:09:13.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "traffic.h",
-              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\traffic.h",
-              "RelativeDocumentMoniker": "Library\\traffic.h",
-              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\traffic.h",
-              "RelativeToolTip": "Library\\traffic.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-02T20:46:08.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "scene_straight.h",
-              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\scene_straight.h",
-              "RelativeDocumentMoniker": "Library\\scene_straight.h",
-              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\scene_straight.h",
-              "RelativeToolTip": "Library\\scene_straight.h",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAC4AAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-02T17:24:28.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "scene_obs.h",
               "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\scene_obs.h",
               "RelativeDocumentMoniker": "Library\\scene_obs.h",
               "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\scene_obs.h",
               "RelativeToolTip": "Library\\scene_obs.h",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAmAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAIAzwCAAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-02T13:38:00.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T13:38:00.75Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "scene_base.h",
-              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\scene_base.h",
-              "RelativeDocumentMoniker": "Library\\scene_base.h",
-              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\scene_base.h",
-              "RelativeToolTip": "Library\\scene_base.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-02T03:22:40.934Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "polynomial.h",
-              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\polynomial.h",
-              "RelativeDocumentMoniker": "Library\\polynomial.h",
-              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\polynomial.h",
-              "RelativeToolTip": "Library\\polynomial.h",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACwAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-01T15:38:23.684Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "planning_base.h",
-              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\planning_base.h",
-              "RelativeDocumentMoniker": "Library\\planning_base.h",
-              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\planning_base.h",
-              "RelativeToolTip": "Library\\planning_base.h",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAFgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-01T15:16:48.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "road.h",
-              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\road.h",
-              "RelativeDocumentMoniker": "Library\\road.h",
-              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\road.h",
-              "RelativeToolTip": "Library\\road.h",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACYAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-02T03:01:43.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "main.h",
-              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\main.h",
-              "RelativeDocumentMoniker": "Library\\main.h",
-              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\main.h",
-              "RelativeToolTip": "Library\\main.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-01T15:15:00.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "car.h",
-              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\car.h",
-              "RelativeDocumentMoniker": "Library\\car.h",
-              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Library\\car.h",
-              "RelativeToolTip": "Library\\car.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-31T21:25:45.808Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "road.cpp",
-              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\road.cpp",
-              "RelativeDocumentMoniker": "road.cpp",
-              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\road.cpp",
-              "RelativeToolTip": "road.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-31T04:33:56.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "planning_base.cpp",
-              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\planning_base.cpp",
-              "RelativeDocumentMoniker": "planning_base.cpp",
-              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\planning_base.cpp",
-              "RelativeToolTip": "planning_base.cpp",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-31T04:33:56.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "car.h",
-              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\car.h",
-              "RelativeDocumentMoniker": "car.h",
-              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\car.h",
-              "RelativeToolTip": "car.h",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAgwCAAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-30T14:32:28.211Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 9,
               "Title": "car.cpp",
-              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\car.cpp",
-              "RelativeDocumentMoniker": "car.cpp",
-              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\car.cpp",
-              "RelativeToolTip": "car.cpp",
+              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\car.cpp",
+              "RelativeDocumentMoniker": "Src\\car.cpp",
+              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\Src\\car.cpp",
+              "RelativeToolTip": "Src\\car.cpp",
+              "ViewState": "AQIAAFgAAAAAAAAAAAD4v20AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-26T03:23:22.163Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "scene_straight.cpp",
-              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\scene_straight.cpp",
-              "RelativeDocumentMoniker": "scene_straight.cpp",
-              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\scene_straight.cpp",
-              "RelativeToolTip": "scene_straight.cpp",
-              "ViewState": "AQIAAHIAAAAAAAAAAAAAAJoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-01T10:00:32.819Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "scene_straight.h",
-              "DocumentMoniker": "C:\\Users\\EthanYU\\source\\repos\\car_project\\scene_straight.h",
-              "RelativeDocumentMoniker": "scene_straight.h",
-              "ToolTip": "C:\\Users\\EthanYU\\source\\repos\\car_project\\scene_straight.h",
-              "RelativeToolTip": "scene_straight.h",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACQAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-01T10:00:19.55Z"
+              "WhenOpened": "2024-09-02T20:46:26.378Z"
             }
           ]
         }

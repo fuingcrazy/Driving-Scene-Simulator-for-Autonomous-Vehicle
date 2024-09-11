@@ -26,6 +26,16 @@ bool process(const int& type)   //select enter function by type
 		unique_ptr<sceneBase> job = make_unique<StraightCrossWalk>();
 		return job->planning_process();
 	}
+	case PlanType::ObsPassOvertakeT:
+	{
+		unique_ptr<sceneBase> job = make_unique<OvertakeObs>();
+		return job->planning_process();
+	}
+	case PlanType::ObsPassMeetingT:
+	{
+		unique_ptr<sceneBase> job = make_unique<MeetingObs>();
+		return job->planning_process();
+	}
 	case PlanType::ObsPoly:
 	{
 		unique_ptr<sceneBase> job = make_unique<Polynomial>();

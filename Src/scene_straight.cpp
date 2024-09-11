@@ -37,9 +37,9 @@ StraightStation::StraightStation()
 {
 	road0 = make_unique<RoadNormal>();
 	car0 = make_unique<carNormal>(Swidth / 2.0, Sheight - 70.0);
-	station = make_unique<Point>(Swidth / 2.0, Sheight / 2.0);    //set station
+	station = make_unique<Point>(Swidth / 2.0, Sheight / 2.0-300);    //set station
 
-	car0->speed_y = -6.0;
+	car0->speed_y = -7.0;
 	car0->coutInfo();
 	showScene();    
 	system("pause");   
@@ -70,10 +70,10 @@ bool StraightStation::planning_process()
 StraightFollow::StraightFollow()
 {
 	road0 = make_unique<RoadNormal>();
-	carObs = make_unique<carNormal>(Swidth / 2.0, Sheight / 2.0, 0.0, 50.0, 100.0);   
-	carObs->speed_y = -2.0;
+	carObs = make_unique<carNormal>(Swidth / 2.0, Sheight / 2.0-150, 0.0, 50.0, 100.0);   
+	carObs->speed_y = -3.0;
 	car0 = make_unique<carNormal>(Swidth / 2.0, Sheight - 70.0);
-	car0->speed_y = -6.0;
+	car0->speed_y = -8.0;
 
 	car0->coutInfo();
 	carObs->coutInfo();
@@ -123,7 +123,7 @@ StraightCrossWalk::StraightCrossWalk()
 {
 	road0 = make_unique<RoadCross>();
 	car0 = make_unique<carNormal>(Swidth / 2.0, Sheight - 70.0);
-	car0->speed_y = -5.0;
+	car0->speed_y = -6.0;
 
 	for (int i = 0; i < people_n; i++)
 	{

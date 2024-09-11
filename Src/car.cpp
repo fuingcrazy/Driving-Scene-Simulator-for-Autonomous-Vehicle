@@ -40,8 +40,8 @@ void carBase::updatepmidr()
 {
 	if (pmidr)    
 	{
-		pmidr->x = plr->x / 2 + prr->x / 2;
-		pmidr->y = plr->y / 2 + prr->y / 2;
+		pmidr->x = plr->x / 2.0 + prr->x / 2.0;
+		pmidr->y = plr->y / 2.0 + prr->y / 2.0;
 	}
 	else
 		pmidr = make_unique<Point>(plr->x / 2 + prr->x / 2, plr->y / 2 + prr->y / 2);    
@@ -107,6 +107,7 @@ void carBase::TurnStep()   //turn by step
 	prf->PointTurn(*p_center, delta_theta);
 	plr->PointTurn(*p_center, delta_theta);
 	prr->PointTurn(*p_center, delta_theta);
+	heading_theta += delta_theta;
 }
 
 void carBase::TurnByAngle(Point first, Point Second)    //update car position by 2 points on the given track 
@@ -179,7 +180,7 @@ void carBase::updateTurnInfo(const int& turn_state, const double& R)  //calculat
 		prf->R = Rof;
 
 	}
-	cout << "center_turn.x: ," << x << " center_turn.y: ," << y << endl;
+	//cout << "center_turn.x: ," << x << " center_turn.y: ," << y << endl;
 	if (p_center)
 	{
 		p_center->x = x;

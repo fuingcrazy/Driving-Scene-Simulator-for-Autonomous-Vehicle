@@ -1,4 +1,6 @@
-﻿  scene_obs.cpp
-  scene_straight.cpp
-  正在生成代码...
+﻿  main.cpp
+C:\Users\EthanYU\source\repos\car_project\Library\polynomial.h(3,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+C:\Users\EthanYU\source\repos\car_project\Library\polynomial.h(4,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+C:\Users\EthanYU\source\repos\car_project\Src\main.cpp(53,20): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
+C:\Users\EthanYU\source\repos\car_project\Src\main.cpp(53,12): warning C4244: “参数”: 从“const double”转换到“int”，可能丢失数据
   car_project.vcxproj -> C:\Users\EthanYU\source\repos\car_project\x64\Debug\car_project.exe

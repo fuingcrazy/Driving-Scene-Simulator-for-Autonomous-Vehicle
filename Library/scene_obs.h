@@ -17,6 +17,7 @@ class OvertakeObs : public sceneBase
 public:
 	OvertakeObs();
 	void showScene();
+	void obsMoveStep();
 	bool planning_process() override;
 public:
 	unique_ptr<carNormal> carObs;
@@ -29,6 +30,7 @@ public:
 	MeetingObs();
 	void showScene();
 	bool planning_process() override;
+	void obsMoveStep();
 public:
 	unique_ptr<carNormal> carObs;
 	double start_dis = 200.0;

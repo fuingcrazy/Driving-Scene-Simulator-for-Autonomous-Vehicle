@@ -60,7 +60,7 @@ RoadDoubleLine::RoadDoubleLine(const double& r_width)
 void RoadDoubleLine::showRoad()
 {
 	setlinestyle(PS_SOLID, 4);
-	setlinecolor(LIGHTGREEN);
+	setlinecolor(BLACK);
 
 	line(left_boundary, 0.0, left_boundary, Sheight);
 	line(right_boundary, 0.0, right_boundary, Sheight);

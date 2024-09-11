@@ -20,7 +20,7 @@ public:
 	bool planning_process() override;
 public:
 	unique_ptr<Point> station;
-	int stop_time = 3;   
+	int stop_time = 2;   
 };
 
 class StraightFollow :public sceneBase
@@ -31,7 +31,7 @@ public:
 	bool planning_process() override;
 public:
 	unique_ptr<carNormal> carObs;   // obstacle car
-	double safedis = 120.0;   //safe distance
+	double safedis = 80.0;   //safe distance
 };
 
 class StraightCrossWalk :public sceneBase
